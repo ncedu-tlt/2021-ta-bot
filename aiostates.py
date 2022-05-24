@@ -1,0 +1,23 @@
+from aiogram.dispatcher.filters.state import StatesGroup, State
+
+class AioState(StatesGroup):
+    any_state = State()
+    start = State()
+    placeSearch = State()
+    comments = State()
+    options = State()
+    adminPanel = State()
+    rating = State()    
+    registeration = State()
+    citySwap = State()
+    userComments = State()
+    markComment = State()
+    markEditComments = State()
+    reviewComment = State()
+    reviewEditComments = State()
+    editComments = State()    
+    removeComment = State()
+    determinatedPlace = State()
+    determinatedComment = State()
+    category = State()
+    userSubComments = State()
